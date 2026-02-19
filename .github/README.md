@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-fms`](https://www.npmjs.com/package/@aws-sdk/client-fms/v/3.830.0).
+[`@aws-sdk/client-fms`](https://www.npmjs.com/package/@aws-sdk/client-fms/v/3.835.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-fms@3.830.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-fms@3.835.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-CBO1q2EwCgeNriprHN36F31B0zd8/EVuz6M6dKqDXXdrzt3iP/JX6LyLj1ERIhMA
+sha384-36185MF1BSh7alO8hw3XshpOYp17b/XtW8Y7OrakF8JKjFphbVvGMwBd9mPlx3lk
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-fms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-fms@3.830.0/index.min.mjs"
+            "@aws-sdk/client-fms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-fms@3.835.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-fms@3.830.0/index.min.mjs": "sha384-CBO1q2EwCgeNriprHN36F31B0zd8/EVuz6M6dKqDXXdrzt3iP/JX6LyLj1ERIhMA"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-fms@3.835.0/index.min.mjs": "sha384-36185MF1BSh7alO8hw3XshpOYp17b/XtW8Y7OrakF8JKjFphbVvGMwBd9mPlx3lk"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-fms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-fms@3.830.0/index.min.mjs"
+                        "@aws-sdk/client-fms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-fms@3.835.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-fms@3.830.0/index.min.mjs": "sha384-CBO1q2EwCgeNriprHN36F31B0zd8/EVuz6M6dKqDXXdrzt3iP/JX6LyLj1ERIhMA"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-fms@3.835.0/index.min.mjs": "sha384-36185MF1BSh7alO8hw3XshpOYp17b/XtW8Y7OrakF8JKjFphbVvGMwBd9mPlx3lk"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.830.0`)
+* Always pin to a specific version (`@3.835.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-fms/blob/refs/tags/3.830.0/LICENSE
+https://github.com/cloud-sdk-builds/client-fms/blob/refs/tags/3.835.0/LICENSE
 ```
 
 ---
